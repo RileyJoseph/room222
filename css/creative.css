@@ -22,7 +22,7 @@
     float: left;
     padding: 15px;
     position: relative;
-    background-color: #FFF5EE;
+    background-color: rgba(255,245,238,.9);
 }
 .menu-restaurant .menu-title {
     float: left;
@@ -86,6 +86,7 @@
 }
 .backgroundImg2{
   position: fixed;
+  /*background-repeat: no-repeat;*/
   left: 0;
   right: 0;
   z-index: -4;
@@ -103,7 +104,10 @@
 /* - - - - - -News and Events - - - - - -*/
 
 .news{
-  background-color: white;
+  height: 80%;
+  width: auto;
+  background-color: rgba(255,245,238,.9);
+  color: black;
 }
 
 .blackFont{
