@@ -45,7 +45,7 @@ xhttp.onreadystatechange = function() {
 //     var options = ("Access-Control-Request-Method","Access-Control-Request-Headers")
 
 //     //Send the proper header information along with the request
-//     http.setRequestHeader("Content-type", "application/jsonp", "Access-Control-Allow-Origin", "*", "Authorization", "Bearer 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", "origin","http://localhost:8000");
+//     http.setRequestHeader("Content-type", "application/jsonp", "Access-Control-Allow-Origin", "*", "Authorization", "Bearer ", "origin","http://localhost:8000");
 
 //     http.send(data);
 // }
