@@ -9,6 +9,10 @@
   color:white;
 }
 
+.wrap{
+  min-height: 100%;
+}
+
 .menu-icon
 {
     color: #fff;
@@ -92,13 +96,14 @@
   z-index: -4;
   display: block;
   background-image: url('../img/bg2.jpg');
+  background-size: 100%;
   width: 100%;
   height: 100%;
-  -webkit-filter: blur(2px);
-  -moz-filter: blur(2px);
-  -o-filter: blur(2px);
-  -ms-filter: blur(2px);
-  filter: blur(2px);
+  -webkit-filter: blur(1.5px);
+  -moz-filter: blur(1.5px);
+  -o-filter: blur(1.5px);
+  -ms-filter: blur(1.5px);
+  filter: blur(1.5px);
 }
 
 /* - - - - - -News and Events - - - - - -*/
@@ -137,6 +142,12 @@
   z-index: 96;
   background-color: black;
 }
+
+
+
+/* - - - - - - Reservations - - - - - -*/
+
+
 
 
 /* - - - - - - MAIN BODY - - - - - -*/
@@ -206,8 +217,8 @@ footer{
 section {
   background-color: black;
   z-index: 95;
-  padding-top: 100px;
-  padding-bottom: 20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .section2{
   background-color: transparent;  

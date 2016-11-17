@@ -20,6 +20,14 @@ $('.filter4').click(function(){
     $('.menu-restaurant').show().filter(':not(.category-3)').hide();
 });
 
+var drinks = function(){
+  location.replace("layouts/menu.html")
+  $(document).ready(function(){
+    console.log('here')
+    $('.menu-restaurant').show().filter(':not(.category-2)').hide();
+  })
+}
+
 
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
