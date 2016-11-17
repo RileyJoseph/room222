@@ -206,7 +206,8 @@ footer{
 section {
   background-color: black;
   z-index: 95;
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 20px;
 }
 .section2{
   background-color: transparent;  
