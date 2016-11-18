@@ -21,11 +21,18 @@ $('.filter4').click(function(){
 });
 
 var drinks = function(){
-  location.replace("layouts/menu.html")
+  location.replace("layouts/menu.html");
+  drinks2();
+}
+
+var drinks2 = function(){
   $(document).ready(function(){
-    console.log('here')
-    $('.menu-restaurant').show().filter(':not(.category-2)').hide();
+  console.log('here')
   })
+  $( window ).load(function() {
+    console.log( "window loaded" );
+  });
+  $('.menu-restaurant').show().filter(':not(.category-2)').hide();
 }
 
 
