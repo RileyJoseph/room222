@@ -75,36 +75,37 @@
     </nav>
  <!--    <div class="backgroundImg">
     </div> -->
-    <section id="menu-list" class="section-padding section2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center marb-35">
-                    <h1 class="header-h">Reservations</h1>
-                </div>
-                <form>
-                    First name:<br>
-                    <input type="text" name="firstname"><br>
-                    Last name:<br>
-                    <input id="name" type="text" name="lastname">
-                    <button type="button" onclick="getMail()">Get Reservation</button>
-                </form>
-                   <!--  <div class="container">
-                        <div style="overflow:hidden;">
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col-md-8">
-                                        <div id="datetimepicker12"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <input type="number" name="quantity" min="1" max="30">
-                        <input type="submit">
-                    </div> -->
+    <section class="container section-padding section2">
+        <div class="col-md-12 text-center marb-35">
+            <h1 class="header-h">Reservations</h1>
+        </div>
+        <div class="col-md-12">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8">
+            <form class="reservation-form" action="" method="post">
+                <label for="field1">
+                    <span>Enter Your Name</span><input type="text" name="field1" required="true" />
+                </label>
+                <label for="field2">
+                    <span>Email Address</span><input type="email" name="field2" required="true" />
+                </label>
+                <label for="field3">
+                    <span>Short Subject</span><input type="text" name="field3" required="true" />
+                </label>
+                <label for="field4">
+                    <span>Message to Us</span><textarea name="field4" onkeyup="adjust_textarea(this)" required="true"></textarea>
+                </label>
+                <label>
+                <span>&nbsp;</span><input type="submit" value="Send Letter" />
+                </label>
+            </form>
+            </div>
+            <div class="col-md-2">
             </div>
         </div>
+
     </section>
-    </div>
     <footer id="contact">
         <div class="container">
             <div class="row">
@@ -124,6 +125,14 @@
             </div>
         </div>
     </footer>
+
+    <script type="text/javascript">
+    //auto expand textarea
+    function adjust_textarea(h) {
+        h.style.height = "20px";
+        h.style.height = (h.scrollHeight)+"px";
+    }
+    </script>
 
     <!-- jQuery -->
     <script src="../vendor/jquery/jquery.min.js"></script>
