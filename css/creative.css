@@ -14,7 +14,11 @@
 .center{
     padding-left: 50%;
     transform: translateX(-50%);
-  }
+}
+
+.min-height{
+  min-height: 500px;
+}
 
 
  /* ------ MENU CSS ------*/
